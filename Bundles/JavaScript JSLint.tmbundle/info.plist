@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>wzrlbhat@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>James Young</string>
+	<key>description</key>
+	<string>Run JSLint integrated into TextMate on a file or a selection.  Ability for in-app update of jslint.js.</string>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>7E2ECEC7-D30C-41DA-A73F-3CE929E151C8</string>
+			<string>361FD977-8C49-45E1-8829-F88B68D0FFF6</string>
+			<string>------------------------------------</string>
+			<string>E039AF37-76DD-4C2C-8462-23DFB299AA48</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
+	<key>name</key>
+	<string>JavaScript JSLint</string>
+	<key>ordering</key>
+	<array>
+		<string>7E2ECEC7-D30C-41DA-A73F-3CE929E151C8</string>
+		<string>E039AF37-76DD-4C2C-8462-23DFB299AA48</string>
+	</array>
+	<key>uuid</key>
+	<string>61FA0F5F-1012-4067-BC5F-EDEC834A22B4</string>
+</dict>
+</plist>

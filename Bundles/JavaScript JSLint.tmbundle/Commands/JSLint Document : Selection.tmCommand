@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/bin/bash
+
+if [[ ${TM_SELECTED_TEXT} != "" ]]; then
+    jsc-jslint.sh "${TM_SELECTED_TEXT}"
+else
+    jsc-jslint.sh ${TM_FILEPATH}
+fi</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@L</string>
+	<key>name</key>
+	<string>JSLint Document / Selection</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.js, text.html</string>
+	<key>uuid</key>
+	<string>7E2ECEC7-D30C-41DA-A73F-3CE929E151C8</string>
+</dict>
+</plist>

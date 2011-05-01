@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/*jslint white: ${1:true}, devel: ${2:false}, onevar: ${3:true}, browser: ${4:true}, undef: ${5:true}, nomen: ${6:true}, regexp: ${7:true}, plusplus: ${8:true}, bitwise: ${9:true}, newcap: ${10:true}, maxerr: ${11:50}, indent: ${12:4} */
+/*global ${13:} */
+</string>
+	<key>name</key>
+	<string>JSLint Options</string>
+	<key>scope</key>
+	<string>source.js, text.html</string>
+	<key>tabTrigger</key>
+	<string>/*jslint</string>
+	<key>uuid</key>
+	<string>361FD977-8C49-45E1-8829-F88B68D0FFF6</string>
+</dict>
+</plist>
