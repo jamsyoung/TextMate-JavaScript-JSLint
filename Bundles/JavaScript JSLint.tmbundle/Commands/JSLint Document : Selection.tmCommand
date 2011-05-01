@@ -20,8 +20,6 @@ fi</string>
 	<string>JSLint Document / Selection</string>
 	<key>output</key>
 	<string>showAsHTML</string>
-	<key>scope</key>
-	<string>source.js, text.html</string>
 	<key>uuid</key>
 	<string>7E2ECEC7-D30C-41DA-A73F-3CE929E151C8</string>
 </dict>

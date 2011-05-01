@@ -37,7 +37,8 @@ Initial Install
 4. Get the most current version of JSLint and put it in the Support script
    directory.
 
-    $ git clone https://github.com/douglascrockford/JSLint.git ~/Library/Application\ Support/TextMate/Support/script/
+    $ mkdir ~/Library/Application\ Support/TextMate/Support/script/JSLint
+    $ git clone https://github.com/douglascrockford/JSLint.git ~/Library/Application\ Support/TextMate/Support/script/JSLint/
 
 
 5. Install this bundle with support files
@@ -49,7 +50,9 @@ Initial Install
     $ mv ~/TextMate-JavaScript-JSLint/Support/bin/* ~/Library/Application\ Support/TextMate/Support/bin/
     $ mv ~/TextMate-JavaScript-JSLint/Support/script/* ~/Library/Application\ Support/TextMate/Support/script/
 
+
 6. Fire up TextMate and make sure you have a JavaScript JSLint Bundle.  CMD-Shift-L should trigger it.
+
 
 7. Update jslint.js.  In TextMate hit CMD-Shift-L 2.  This will update the jslint.js in the Support folder.
 
