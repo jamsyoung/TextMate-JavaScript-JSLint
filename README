@@ -43,7 +43,8 @@ Initial Install
 5. Install this bundle with support files
 
     $ mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-    $ git clone git://github.com/jamsyoung/TextMate-JavaScript-JSLint.git ~/
+    $ cd ~
+    $ git clone git://github.com/jamsyoung/TextMate-JavaScript-JSLint.git
     $ mv ~/TextMate-JavaScript-JSLint/Bundles/JavaScript\ JSLint.tmbundle ~/Library/Application\ Support/TextMate/Bundles/
     $ mv ~/TextMate-JavaScript-JSLint/Support/bin/* ~/Library/Application\ Support/TextMate/Support/bin/
     $ mv ~/TextMate-JavaScript-JSLint/Support/script/* ~/Library/Application\ Support/TextMate/Support/script/
