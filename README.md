@@ -1,23 +1,23 @@
-TextMate JavaScript JSLint Bundle
+# TextMate JavaScript JSLint Bundle
 
-Summary
+## Summary
 Allows jslinting of documents or selections within TextMate utilizing the
 JavaScript Console included with Mac OS X (jsc).  I realize this has
 been done before, but none seemed to do it exactly the way I wanted.
 
 
-To Do
+## To Do
 Create a script for the initial setup and getting the JSLint files in the
 proper place.
 
 
-Requirements
+## Requirements
 Support files are needed and this is not part of the official TextMate svn, so
 you will need to pull down a local Support directory and install the needed
 files there.  This, of course, requires svn to be installed.
 
 
-Initial Install
+### Initial Install
 1. Get a customizeable Support directory in your home.
 
     $ mkdir -p ~/Library/Application\ Support/TextMate
@@ -58,4 +58,4 @@ Initial Install
 
 
 jmeyoung@gmail.com
-http://jamesyoung.com
+http://jamsyoung.com

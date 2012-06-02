@@ -13,28 +13,13 @@
     }
 
     var defaultOptions = {
-        browser: true,
-        white: true,
-        onevar: true,
-        undef: true,
-        newcap: true,
-        nomen: true,
-        regexp: true,
-        plusplus: true,
-        bitwise: true,
-        maxerr: 50,
-        indent: 4
+        browser: true
+        white: true
     };
 
     JSLINT(source, defaultOptions);
 
-    print('<style>');
-    print('#errors p { margin: 0 0 10px 40px; }');
-    print('#errors p.evidence { font-family: monospace; padding: 4px; border: 1px dashed #aaa; margin: 0 0 20px 0; }');
-    print('.function { font-family: monospace; }');
-    print('</style>');
-
-    print('<div>' + JSLINT.report() + '</div>');
+    print('<div>' + JSLINT.error_report(JSLINT.data()) + '</div>');
 
     quit();
 }(arguments[0]));
