@@ -1,3 +1,8 @@
+# This project is not maintained anymore
+(I switched to SublimeText years ago)
+
+---
+
 # TextMate JavaScript JSLint Bundle
 
 ## Summary
